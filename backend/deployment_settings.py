@@ -23,7 +23,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-# CORS_ALLOWED_ORIGINS = []
+CORS_ALLOWED_ORIGINS = ['https://render-react-deploy.onrender.com']
 
 STORAGES = {
     "default":{
